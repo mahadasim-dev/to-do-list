@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+    --color-main: #ddd;
+    --color-card: #ffffff;
+    --color-button: #e25822;
+    --color-text-main: #111827;
+    --shadow-main: 0 3px 6px rgba(0, 0, 0, 0.3);
+    --shadow-button: 0 4px 12px rgba(255, 216, 128, 0.5);
+    --shadow-button-hover: 0 8px 24px rgba(255, 216, 128, 0.9);
+    --shadow-modal: 0 24px 50px -12px rgba(0, 0, 0, 0.5);
+}
