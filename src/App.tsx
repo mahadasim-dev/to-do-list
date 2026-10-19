@@ -45,7 +45,7 @@ export default function App() {
 
     return (
         <div className='font-sans bg-main text-text-main m-0 p-0 w-screen h-screen overflow-x-hidden relative'>
-            <h1 className='text-2xl text-text-main font-bold ml-3 pt-4'>Task List</h1>
+            <h1 className='text-2xl text-text-main font-bold ml-3 pt-4'>To-Do List</h1>
             <div className='my-10 mx-auto p-4 md:max-w-md'>
                 {error && (
                     <p className='flex flex-col justify-center p-2 mb-3 text-sm text-red-800 bg-red-400 border-none rounded-lg w-full'>{error}</p>
